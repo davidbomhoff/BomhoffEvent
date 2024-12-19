@@ -1,0 +1,160 @@
+.home{
+	width: 100vw;
+	height: 3100px;
+	background-color: grey;
+	z-index: 0;
+	overflow: clip;
+}
+
+.hinterland{
+	width: 80vw;
+	height: 20vh;
+	position: absolute;
+	top: 100px;
+	left: 10%;
+}
+
+.buyticket{
+	text-align: center;
+	width: 300px;
+	height: 90px;
+	background-color: grey;
+	border-radius: 16px;
+	border-color: blanchedalmond;
+	position: absolute;
+	top: 60%;
+	left: 10%;
+	font-family: "Macondo Swash Caps";
+	font-size: 36px;
+	font-style: normal ;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	line-height: 40px;
+}
+
+.head{
+	width: auto;
+	height: 100vh;
+	align-items: center;
+	display: flex;
+	background: url("../images/IMG_0616.jpeg") center no-repeat;
+ 	background-size: cover; /* Makes the image cover the div */
+  	background-position: center; /* Centers the image within the div */
+  	background-repeat: no-repeat; /* Prevents tiling if the image is smaller than the div */
+z-index: 1;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.navbar{
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	top: 80%;
+    word-spacing: 166px; 
+    font-size: 18px; /* Adjust font size */
+    font-family: "Macondo Swash Caps";
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration: none;
+	color: black;
+}
+
+@font-face{
+	font-family: "Macondo Swash Caps";
+	src: url("../fonts/MacondoSwashCaps-Regular.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "NewRocker";
+	src: url("../fonts/NewRocker-Regular.ttf") format(truetype);
+}
+
+.hometext1{
+	width: 740px;
+	height: 677px;
+	font-size: 36;
+	font-weight: 400;
+	position: absolute;
+	top: 10%;
+	left: 20%;
+}
+
+.svg_background {
+	width: 100vw;
+	height: auto;
+	position: absolute;
+	overflow: hidden;
+}
+
+.hometext1 {
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	width: 25vw;
+	font-family: "NewRocker";
+	font-size: 24px;
+}
+
+.hometext2 {
+	position: absolute;
+	right: 10%;
+	top: 35%;
+	width: 25vw;
+	font-family: "NewRocker";
+	font-size: 24px;
+}
+
+.hometext3 {
+	position: absolute;
+	left: 10%;
+	top: 60%;
+	width: 25vw;
+	font-family: "NewRocker";
+	font-size: 24px;
+}
+
+.himage1{
+	position: absolute;
+	width: 40vw;
+	height: 30vh;
+	right: 10%;
+	top: 12%;
+	background: url("../images/himage1.png") center ; 
+	border: transparent;
+		display: flex;
+}
+
+.himage2{
+	position: absolute;
+	width: 40vw;
+	height: 30vh;
+	left: 10%;
+	top: 37%;
+	background: url("../images/himage2.png") center ;
+	border: transparent;
+		display: flex;
+}
+
+.himage3{
+	position: absolute;
+	right: 10%;
+	top: 62%;
+	width: 40vw;
+	height: 30vh;
+	background: url("../images/himage3.jpeg") center;
+	filter: grayscale(100%);
+	border: transparent;
+		display: flex;
+}
+
+
+
+
+
